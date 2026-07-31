@@ -8,7 +8,7 @@ import { useEffect } from 'react'
  */
 const Gtag = () => {
   const router = useRouter()
-  const ANALYTICS_GOOGLE_ID = siteConfig('ANALYTICS_GOOGLE_ID')
+  const ANALYTICS_GOOGLE_ID = siteConfig('G-W1TDKN42N3')
   useEffect(() => {
     const gtagRouteChange = url => {
       gtag.pageview(url, ANALYTICS_GOOGLE_ID)
